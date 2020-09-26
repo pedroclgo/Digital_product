@@ -1,0 +1,31 @@
+@media (max-width:600px){
+
+    
+    .products{
+        display: inherit; /*Para que el bloque se vaya para abajo*/
+        height: auto; /*para que se acomode al tamaño de pantalla*/
+    }    
+
+    .product{
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 1%;
+    }
+
+    .beneficios, .menciones{
+        display: inherit;
+        height: auto;
+    }
+
+    .beneficio{
+        margin-top: auto;
+    }
+    .footer {
+        display: block;
+        position:relative;
+        margin: 0px;
+        padding: 0px;
+    }
+}

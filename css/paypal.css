@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*Para q centrarlo de manera vertical*/
+}
+
+.content_paypal a{
+    color: greenyellow; 
+
+}

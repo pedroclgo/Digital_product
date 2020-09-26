@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&display=swap');
+
+:root{
+    --green-color:#7ACC20;
+    --white-color:white;
+    --black-color: #313337;
+    --space:10px;
+    --normal:12px;
+    --box:0px 0 2px 1px #e6e5e9;
+
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: var(--white-color);
+    background-image: var(--white-color)
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);  
+     padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+} 
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+p, label {
+    font-size: var(--normal);
+}
+
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+    color: black;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.products {
+    height: 200px;
+    /*max-height: 50px;*/
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+
+    padding-bottom: 100px;
+
+}
+
+.product {
+    padding: var(--space);
+    margin-top: -240px;
+    padding-bottom: 100PX;
+}
+
+.product .content {
+    background-color: var(--green-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: green;
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover {
+    background-color: #5e9e22;
+}
+
+/*------- footer -----*/
+
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    font-size: var(--normal);
+    background-color: black;
+    padding: var(--space);
+    color: var(--green-color);
+
+    
+  
+
+}
+
+
+
+.option_contac a {
+    color: var(--green-color);
+}
+/*-------  fin del footer -------*/
+
+ /* ul {
+    display: flex;
+    background-color: var(--green-color); 
+     padding: var(--space);
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ ul li {
+     display: flex;
+    list-style: none;
+
+ }
+
+ ul li a{
+    display: flex;
+
+    color: black;
+    text-decoration: none;
+
+ }*/
+
+/*---------------Venta----------------*/
+
+.row{
+    display: flex;
+}
+
+.modulo_pago_imagenes img{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.modulo_pago{
+    
+    border: 1px solid red;
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    /*padding: var(--space);*/
+    
+    
+}
+.modulo_pago h3{
+    color: black;
+}
+
+.modulo_pago p {
+    color: black;
+}
+
+.modulo_pago input {
+    margin-top: 30px;
+}
+/*-----Formulario registro------*/
+
+
+ /*------- footer -----*/
+
+ .beneficios{
+     color: white;
+     height: 100px;
+     /*max-height: 50px;*/
+     background-size: cover;
+     background-position: center top;
+     padding: 15%;
+     display:flex;
+     padding-bottom: 75px;
+     padding-top: 125px;
+ }
+
+.beneficio{
+    padding: var(--space);
+        margin-top: -240px;
+
+}
+
+ .beneficios .beneficio{
+        background-color: var(--green-color);
+        padding: var(--space);
+        box-shadow: var(--box);    
+        color: #313337;
+    }
+
+.content-beneficio {
+        text-align: center;
+    }
+ 
+.menciones{
+    color: black;
+    text-align: center;
+}
+
+.personas{
+    color: white;
+
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+    display: flex;
+    padding: var(--space);
+    padding-bottom: 33px;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.personas-img{
+background: red;
+width: 200px;
+height: 200px;
+border: 1px solid greenyellow;
+display: block;
+box-shadow: 0px 0 2px 1px #e6e5e9;
+margin-right: 20px;
+}
+
+.personas-img img{
+    width: 100%;
+}
+img{
+    border-style: none;
+}
+
